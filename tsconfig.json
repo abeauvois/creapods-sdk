@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "target": "ESNext",
+    // "lib": ["ES2015"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": false,
+    "removeComments": true,
+    "strictNullChecks": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./node_modules", "src/*.test.ts", "./dist", "./example"]
+}

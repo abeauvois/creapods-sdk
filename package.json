@@ -1,28 +1,41 @@
 {
-  "name": "vite-javascript-webflow",
+  "name": "webflow-vite",
   "version": "0.0.1",
   "author": "armandsalle <armand.salle@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "clean": "rimraf -rf dist",
-    "lint:fix": "eslint ./src --ext .js,.jsx --fix"
+    "lint:fix": "eslint ./src --ext .ts,.tsx --fix"
   },
   "devDependencies": {
+    "@types/eslint": "^8.4.6",
+    "@types/jquery": "^3.5.13",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
     "eslint": "^8.7.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
     "jquery": "^3.6.0",
-    "prettier": "^2.5.1",
+    "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
-    "vite": "^2.7.2",
-    "vite-plugin-eslint": "^1.3.0",
-    "eslint-config-prettier": "^8.3.0"
+    "typescript": "^4.8.4",
+    "vite": "^3.1.3",
+    "vite-plugin-eslint": "^1.8.1"
   },
-  "dependencies": {
-    "gsap": "^3.9.1"
+  "dependencies": {},
+  "prettier": {
+    "semi": false,
+    "printWidth": 100
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
   }
 }
