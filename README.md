@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/293cd783-b0d5-4110-b2b6-2ae7dd01e4b0/deploy-status)](https://app.netlify.com/sites/voluble-cuchufli-8c4933/deploys)
+
 # ViteJs + JS + Webflow = ❤️
 
 This is a basic setup with [ViteJs](https://vitejs.dev/) that you can use for your Webflow website.
@@ -18,10 +20,12 @@ You can find a simple example of a Webflow site using this setup [here](https://
 ## How to use with Webflow
 
 ### 🇫🇷 French
-The doc is [here](https://github.com/armandsalle/vite-javascript-webflow/blob/main/HowToUse_JS_FR.md) 
+
+The doc is [here](https://github.com/armandsalle/vite-javascript-webflow/blob/main/HowToUse_JS_FR.md)
 
 ### 🇬🇧 English
-The doc is [here](https://github.com/armandsalle/vite-javascript-webflow/blob/main/HowToUse_JS_EN.md) 
+
+The doc is [here](https://github.com/armandsalle/vite-javascript-webflow/blob/main/HowToUse_JS_EN.md)
 
 <br />
 
